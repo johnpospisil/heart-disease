@@ -1,12 +1,16 @@
+Here's your updated GitHub README file, incorporating the latest results while maintaining the requested format.
+
+---
+
 # **🔍 Heart Attack Prediction Using Machine Learning**
 ### **📊 Predicting Heart Attacks with AI-Driven Models**
- ![Heart Disease Prediction](https://github.com/user-attachments/assets/ea92c7db-f7ed-4e40-a0c8-cd92fb56cab1)
+![Heart Disease Prediction](https://github.com/user-attachments/assets/ea92c7db-f7ed-4e40-a0c8-cd92fb56cab1)
 
 ## **📌 Overview**
-Heart disease is a leading cause of mortality worldwide, making **early and accurate heart attack prediction crucial** for preventive healthcare. This project leverages **machine learning** to analyze structured **health and lifestyle data**, aiming to **identify individuals at higher risk of heart attacks**.
+Heart disease is one of the leading causes of mortality worldwide, making **early and accurate heart attack prediction crucial** for preventive healthcare. This project applies **machine learning** to analyze structured **health and lifestyle data**, aiming to **identify individuals at higher risk of heart attacks**.
 
 ## **🎯 Project Goals**
-✅ **Develop & Fine-Tune Machine Learning Models** – Comparing **XGBoost, LightGBM, Logistic Regression, SVM, and Neural Networks** to find the best approach.  
+✅ **Develop & Fine-Tune Machine Learning Models** – Comparing **XGBoost, LightGBM, Logistic Regression, SVM, and Neural Networks** to determine the best predictive model.  
 ✅ **Optimize Performance through Hyperparameter Tuning** – Using **Grid Search and Cross-Validation** to enhance model accuracy.  
 ✅ **Feature Engineering for Better Prediction** – Creating new features to **improve recall and precision** in detecting high-risk individuals.  
 ✅ **Assess Clinical Applicability** – Evaluating models based on **AUC ROC, recall, precision, and medical interpretability** to ensure **practical use in healthcare**.
@@ -60,11 +64,12 @@ Heart disease is a leading cause of mortality worldwide, making **early and accu
 ## **🔎 Model Performance Comparison**
 | **Model** | **Best ROC AUC (CV)** | **Test ROC AUC** | **Recall (Heart Attack Cases)** | **Precision (Heart Attack Cases)** | **Accuracy** |
 |-----------|-----------------|----------------|----------------|----------------|----------------|
-| **XGBoost** | 0.871 | **0.825** | 72% | 17% | 79% |
-| **LightGBM** | 0.906 | **0.822** | 68% | 18% | 81% |
+| **XGBoost** | 0.899 | **0.857** | 69% | 21% | 84% |
+| **LightGBM** | 0.943 | **0.862** | 67% | 26% | 88% |
 | **Logistic Regression** | 0.881 | **0.877** | **76%** | **20%** | 82% |
-| **Linear SVM** | 0.863 | **0.867** | 49% | 42% | 93% |
-| **TensorFlow Neural Network** | 0.892 | **0.869** | 63% | 28% | 89% |
+| **Linear SVM** | 0.880 | **0.877** | 53% | 39% | 93% |
+| **TensorFlow Neural Network** | 0.879 | **0.879** | 62% | 30% | 90% |
+| **Ensemble Model (XGB + LGBM)** | - | **0.863** | 70% | 23% | 86% |
 
 ---
 
@@ -72,7 +77,8 @@ Heart disease is a leading cause of mortality worldwide, making **early and accu
 ✅ **Feature Engineering Improved Prediction** – Adding new **engineered features** significantly **boosted model recall and precision**.  
 ✅ **Logistic Regression is the Most Reliable Model** – With **76% recall and 20% precision**, it is the **best model for clinical applications**.  
 ✅ **XGBoost & LightGBM Have Strong Predictive Power** – They achieve **competitive AUC ROC scores but may require calibration** to improve precision.  
-✅ **Deep Learning Performed Well but is Less Interpretable** – **TensorFlow’s model reached 0.869 AUC ROC**, but its **lack of transparency limits real-world medical use**.  
+✅ **Deep Learning Performed Well but is Less Interpretable** – **TensorFlow’s model reached 0.879 AUC ROC**, but its **lack of transparency limits real-world medical use**.  
+✅ **Ensemble Learning Showed Potential** – Combining **XGBoost and LightGBM** in an ensemble model **achieved an ROC AUC of 0.863**, but did not significantly outperform individual models.
 
 ---
 
