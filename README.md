@@ -31,12 +31,8 @@ Heart disease is one of the leading causes of mortality worldwide, making **earl
 ## **📂 Project Structure**
 ```plaintext
 📁 heart-attack-prediction/
-│── 📄 README.md            # Project Documentation
-│── 📄 requirements.txt      # Required Libraries
-│── 📁 data/                # Dataset (Not Included for Privacy)
-│── 📁 notebooks/           # Jupyter Notebooks for Analysis & Model Training
-│── 📁 models/              # Saved Trained Models
-│── 📁 scripts/             # Python Scripts for Data Processing & Training
+│── 📄 README.md               # Project Documentation
+│── 📄 heart_2022_no_nans.csv  # Project Dataset
 │── 📄 heart-disease-prediction.ipynb  # Main Notebook with Final Results
 ```
 
@@ -96,23 +92,13 @@ git clone https://github.com/your-username/heart-attack-prediction.git
 cd heart-attack-prediction
 ```
 
-### **2️⃣ Install Dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-### **3️⃣ Run the Jupyter Notebook**
+### **2️⃣ Run the Jupyter Notebook**
 ```bash
 jupyter notebook
 ```
 - Open `heart-disease-prediction.ipynb`
 - Follow the steps for **data preprocessing, model training, and evaluation**.
 
-### **4️⃣ Run a Python Script (Optional)**
-To train a model using a script instead of a notebook:
-```bash
-python scripts/train_model.py
-```
 
 ---
 
