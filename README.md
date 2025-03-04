@@ -1,7 +1,3 @@
-Here's your updated GitHub README file, incorporating the latest results while maintaining the requested format.
-
----
-
 # **🔍 Heart Attack Prediction Using Machine Learning**
 ### **📊 Predicting Heart Attacks with AI-Driven Models**
 ![Heart Disease Prediction](https://github.com/user-attachments/assets/ea92c7db-f7ed-4e40-a0c8-cd92fb56cab1)
